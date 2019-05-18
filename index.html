@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="index.css">
+    <title>Ramadan_coding_challenge</title>
+
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--The Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <div class="row">
+          <div class="">
+              <a class="navbar-brand" href="#"><img src="Anaconda_navbrand.png" width="200px" height="100%" class="d-inline-block align-top" alt=""></a>
+              <button class="navbar-toggler ml-auto navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+              <span class=" float-right toggler">MENU<span class="navbar-toggler-icon"></span></span>
+              </button>
+          </div>
+        </div>
+        <div class="ml-auto mr-auto nav-sons align-items-end">
+            <div class="collapse navbar-collapse right" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto" style="width:500px;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Anaconda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Download Anaconda</a>
+                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                  </li>
+                </ul>
+            </div> 
+        </div>
+      </nav>
+
+        <section class="main-content">
+          <!--The Search Bar-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class=" col-10 col-sm-10">
+                  <form action="search">
+                      <div class="input-group mt-3 ml-5 mb-3 search-bar">
+                          <input type="text" class="form-control rounded-0" placeholder="Search Anaconda Cloud" aria-label="Recipient's username" aria-describedby="button-addon2">
+                          <div class="input-group-append">
+                            <button class="btn rounded-0 px-3" type="button" id="button-addon2"><i class="fa fa-search px-5" style="color:white;"></i></button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+          <!--Main content under body-->
+          <section>
+              <div class="row">
+                <div class="text-center col-md-6 left">
+                  <img class="Img-logo ml-5 mb-3 mt-3 pl-5" src="AnacondaCloud_logo_V_green.png" width="350px" height="200px" alt="">
+                  <h4 class="d-none d-md-block d-lg-block">Where packages, notebooks, projects and <br>environments are shared.</h4>
+                  <h4 class="d-block d-md-none">Where packages, notebooks, projects and environments are shared.</h4>
+                  <h6 class="tag">Your place for free public conda package hosting.</h6>
+                </div>
+                <div id="right" class="col-md-5">
+                    <div class="button mb-4">
+                      <button id="sign-up" class="btn btn-success btns">Sign Up</button>
+                      <button id="sign-in" class="btn btn-outline-success btns">Sign In</button>
+                    </div>
+        
+                    <!--Form section-->
+                    <form class="form">
+                      <p class="form-head">New to Anaconda Cloud? Sign up!</p>
+                      <div class="form-group mr-4">
+                        <input type="text" class="form-control" id="username" aria-describedby="username" placeholder="Pick a username">
+                      </div>
+                      <div class="form-group mr-4">
+                        <input type="email" class="form-control" id="exampleInputemail" placeholder="Your email">
+                      </div>
+                      <div class="form-group mr-4">
+                        <small id="emailHelp" class="form-text text-muted">Use at least one lowercase letter, one numeral, and seven characters.</small>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create a password">
+                      </div>
+                      <div class="form-group mr-4">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm password">
+                      </div>
+                      <div class="form-group form-check mb-5">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I accept the <a href="">Terms & Condition</a></label>
+                      </div>
+                      <button type="submit" class="btn btn-success px-5 mt-5" style="width:96%;">Sign up!</button>
+                      <small id="signupHelp" class="form-text text-muted">By clicking "Sign up!" you agree to our privacy policy and terms of service. We will send you account related emails occasionally.</small>
+                    </form>
+                </div>
+              </div>
+          </section>
+        </section>
+        <!--The midbar-->
+        <section class="mid-bar">
+            <div class="row">
+                <div class="col-12 text-center">
+                  <button type="button" class="btn btn-success mt-3 rounded-0 px-5 py-2" id="mb-btn">Anaconda Enterprises</button>
+                </div>    
+              </div>
+        </section>
+        <!--Base section-->
+        <section class="blacky mr-0">
+            <div class="row justify-content-center base-list">
+              <div class="col-2 col-sm-3 col-md-2 mr-5 mt-3">
+                <h5 class="list_heads listy">Anaconda Cloud</h5>
+                <ul class="list-unstyled list_links listy">
+                  <li><a href="">Gallery</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Documentation</a></li>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">About Anaconda, Inc.</a></li>
+                  <li><a href="">Download Anaconda</a></li>
+                </ul>
+              </div>
+              <div class="col-2 col-sm-3 col-md-2 mt-3">
+                <h5 class="list_heads listy">Community</h5>
+                <ul class="list-unstyled list_links listy">
+                  <li><a href="">Anaconda Community</a></li>
+                  <li><a href="">Open Source</a></li>
+                  <li><a href="">NumFOCUS</a></li>
+                  <li><a href="">Support</a></li>
+                <li><a href="">Developer Blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="list-inline text-center ml-4 mr-3">
+              <li class="list-inline-item mx-4 mt-3"><a href=""  title="Follow us on Twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item mx-4 mt-3"><a href=""  title="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item mx-4 mt-3"><a href=""  title="Follow us Slideshare"><i class="fab fa-slideshare"></i></a></li>
+              <li class="list-inline-item mx-4 mt-3"><a href=""  title="Follow us on Linkedln"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-inline-item mx-4 mt-3"><a href=""  title="Follow us on Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item mx-4 mt-3"><a href=""  title="Watch us on YouTube"><i class="fab fa-youtube"></i></a></li>
+              <li class="list-inline-item mx-4 mt-3"><a href=""  title="Follow us on GitHub"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <!--The footer-->
+            <div class="row">
+              <div class="col-12 text-center footer">
+                <h5 class="footer_text">
+                  <a href="" target="blank">PRIVACY POLICY</a>
+                  &nbsp;&#124;&nbsp;
+                  <a href="" target="blank">EULA</a>
+                  <span>(Anaconda Cloud v2.33.29)</span>
+                  &copy;
+                  2019 Anaconda, Inc. All Rights Reserved.
+                </h5>
+              </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
